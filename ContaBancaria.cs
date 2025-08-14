@@ -31,7 +31,7 @@ namespace _2
 
         public bool Saque(double saque)
         {
-            if (saldo > 0 && saldo > saque)
+            if (saldo > 0 && saldo >= saque)
             {
                 saldo -= saque;
                 return true;
@@ -54,3 +54,4 @@ namespace _2
         }
     }
 }
+
