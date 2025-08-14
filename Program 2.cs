@@ -25,7 +25,7 @@ namespace _2
 
             double deposito = conta.Deposito(d);
 
-            Console.WriteLine($"Após o deposito o valor do saldo agora é de: {saldo}");
+            Console.WriteLine($"Após o deposito o valor do saldo agora é de: {conta.saldo}");
 
             Console.WriteLine("Coloque o valor do saque");
             double s = double.Parse(Console.ReadLine());
@@ -45,3 +45,4 @@ namespace _2
         }
     }
 }
+
