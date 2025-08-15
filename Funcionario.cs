@@ -18,7 +18,12 @@ namespace _6
             this.cargo = cargo;
             this.salario = 1.518;
         }
-
+        public Funcionario(string nome, string cargo, double salario)
+        {
+            this.nome = nome;
+            this.cargo = cargo;
+            this.salario = salario;
+        }      
         public string Nome
         {
             get { return nome; }
@@ -38,3 +43,4 @@ namespace _6
         }
     }
 }
+
